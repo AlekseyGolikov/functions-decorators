@@ -1,4 +1,4 @@
-# timer-decorators
+# decorators
 
 -----------------------
 
