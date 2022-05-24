@@ -1,6 +1,6 @@
 # Декорирование функции классом
 
-# Как это работает:
+# Логика работы:
 
 # __init__ вызывается при оформлении some_function. 
 # Опять же, помните, что декорирование — это то же самое, что 
@@ -22,7 +22,7 @@ class MyDecorator:
         print(f"Called {self.counter} times")
 
 @MyDecorator
-def func():
+def some_function():
     return 42
 
 func()
